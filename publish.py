@@ -2,27 +2,19 @@
 import os, sys
 
 HEADER = """
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-<!-- 👇 加入這行來設定瀏覽器分頁的 Icon 👇 -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="/3pwriting/images/favicon.png">
-
-<link rel="stylesheet" type="text/css" href="/css/common-vendor.b8ecfc406ac0b5f77a26.css">
-<link rel="stylesheet" type="text/css" href="/css/font-vendor.b86e2bf451b246b1a88e.css">
-... (底下維持原樣)
-<link rel="stylesheet" type="text/css" href="/css/common-vendor.b8ecfc406ac0b5f77a26.css">
-<link rel="stylesheet" type="text/css" href="/css/font-vendor.b86e2bf451b246b1a88e.css">
-<link rel="stylesheet" type="text/css" href="/css/fretboard.f32f2a8d5293869f0195.css">
-<link rel="stylesheet" type="text/css" href="/css/pretty.0ae3265014f89d9850bf.css">
-<link rel="stylesheet" type="text/css" href="/css/pretty-vendor.83ac49e057c3eac4fce3.css">
-<link rel="stylesheet" type="text/css" href="/css/misc.css">
-
-<script type="text/javascript" id="MathJax-script" async
-  src="/scripts/mathjax.js">
-</script>
-
+<link rel="stylesheet" type="text/css" href="/3pwriting/css/common-vendor.b8ecfc406ac0b5f77a26.css">
+<link rel="stylesheet" type="text/css" href="/3pwriting/css/fretboard.f32f2a8d5293869f0195.css">
+<link rel="stylesheet" type="text/css" href="/3pwriting/css/pretty.0ae3265014f89d9850bf.css">
+<link rel="stylesheet" type="text/css" href="/3pwriting/css/pretty-vendor.83ac49e057c3eac4fce3.css">
+<link rel="stylesheet" type="text/css" href="/3pwriting/css/misc.css">
+<link rel="stylesheet" type="text/css" href="/3pwriting/css/main.css">
+<script type="text/javascript" id="MathJax-script" async src="/3pwriting/scripts/tex-svg.js"></script>
 <style>
 @font-face {
     font-family: MJXc-TeX-math-Iw;
@@ -39,12 +31,14 @@ HEADER = """
 
 .math { font-family: MJXc-TeX-math-Iw }
 </style>
-
+</head>
+<body>
 <div id="doc" class="container-fluid markdown-body comment-enabled" data-hard-breaks="true">
-
 """
 
-FOOTER = """ </div> """
+FOOTER = """ </div>
+</body>
+</html> """
 
 TOC_HEADER = """
 
