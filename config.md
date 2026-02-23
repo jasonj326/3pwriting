@@ -1,0 +1,7 @@
+[title]: <> (Jason Lai Writing on 3P)
+[icon]: <> (https://jasonjlai.net/3pwriting/images/logo.png)
+[server]: <> (/3pwriting) 
+[website_root]: <> (/3pwriting)
+[posts_directory]: <> (general)
+[homepage_category]: <> (general)
+[domain]: <> (https://jasonjlai.net)
